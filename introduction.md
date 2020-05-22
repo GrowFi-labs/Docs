@@ -19,7 +19,6 @@ Resources
 * Discord
 
 ## Introduction
-*****
 UDTswap is an automated exchange protocol using multiple liquidity pool economy on Nervos. UDTswap is a decentralized exchange that replaces order books with an on-chain liquidity pool. Any liquidity pool can be created. In addition, existing automated market maker (AMM) protocols can set a base currency and create a token pair, but there is no limit to the base currency in UDT swap. When liquidity is added to the liquidity pool, the price is automatically formed through the constant product market maker mechanism (x * y = k). Liquidity pool providers will earn exchange fees (0.3% incentives) incurred in the corresponding token pair swap.
 
 Each liquidity pool has two UDTs. To deposit in a liquidity pool, you deposit the equivalent value of a UDT pair. The “Liquidity token (UDT)” of the pool is issued to all liquidity pool providers and is used to verify the provider's liquidity pool contribution. In addition, Liquidity tokens are burned in proportion to the withdrawal of funds deposited in the liquidity pool.
