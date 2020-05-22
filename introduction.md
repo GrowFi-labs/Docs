@@ -1,24 +1,24 @@
 UDTswap Feature
 ---------------
-*Token pairs are not limited.
-*Trade any UDT to any UDT direct swap support. 
-*Automated pricing using Constant Product (x * y = k) market maker formula.
-*Anyone on-chain liquidity pool can participate.
-*Supports CKB and any UDT based pools.
-*Supports multiple pools for same CKB and UDT pairs.
-*Supports multiple swaps for different pools.
-*Liquidity providers earn exchange fees.
-*Front running can be prevented.
-*Protocol protection fees.
+* Token pairs are not limited.
+* Trade any UDT to any UDT direct swap support. 
+* Automated pricing using Constant Product (x * y = k) market maker formula.
+* Anyone on-chain liquidity pool can participate.
+* Supports CKB and any UDT based pools.
+* Supports multiple pools for same CKB and UDT pairs.
+* Supports multiple swaps for different pools.
+* Liquidity providers earn exchange fees.
+* Front running can be prevented.
+* Protocol protection fees.
 
 Resources
 ---------
-*Website
-*Github
-*Twitter
-*Discord
+* Website
+* Github
+* Twitter
+* Discord
 
-##Introduction
+## Introduction
 *****
 UDTswap is an automated exchange protocol using multiple liquidity pool economy on Nervos. UDTswap is a decentralized exchange that replaces order books with an on-chain liquidity pool. Any liquidity pool can be created. In addition, existing automated market maker (AMM) protocols can set a base currency and create a token pair, but there is no limit to the base currency in UDT swap. When liquidity is added to the liquidity pool, the price is automatically formed through the constant product market maker mechanism (x * y = k). Liquidity pool providers will earn exchange fees (0.3% incentives) incurred in the corresponding token pair swap.
 
@@ -32,5 +32,5 @@ As one live cell per liquidity pool, if a user tries to add / remove / swap from
 The protocol protection fees are set to 61 CKB. Users must pay protocol protection fees when using UDTswap. Subsequent figures can be changed through the governance process. The protocol protection fees are used not only to increase the security of UDTswap, but also to build a continuously growing open finance infrastructure.
 UDTswap supports not only CKB but also UDT for basic assets to expand the Nervos and longtail asset (UDT) ecosystem in the future. Also, the liquidity pool of most existing swap models only supports a single pool, but UDTswap supports multiple pools. As a result, UDTswap offers more economic opportunities for liquidity providers (LP).
 
-####Front running
+#### Front running
 UDTswap is cell model. If someone wants to use UDTswap, he must use the pool cell as input. And if someone catches the transaction and send another transaction faster, then the first transaction can not be mined because the transaction is not using live pool cell.
